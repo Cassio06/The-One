@@ -5,13 +5,7 @@
         border-bottom: 3px solid rgb(61, 57, 52);
     
     }
-     #CU a{
-        text-decoration: none;
-        color: white;
-        font-size: 28px;
-        margin: 16px;
-        font-family: "Oswald", sans-serif;
-     }
+   
      body{ background-color: rgb(31, 29, 29);
            padding: 32px;
            text-align:center ;
@@ -51,7 +45,21 @@
      :root{
         --subcor: #38214d;
      }
-      
-    
+   
+      #sla a{
+         text-decoration: none;
+         color: white;
+         font-size: 28px;
+         margin: 16px;
+         font-family: "Oswald", sans-serif;
+
+      }
+      #sla a:hover{text-decoration: underline;
+                    color: var(--subcor);
+                    font-size: 34px;
+                    margin: 16px;
+                    font-family: 'Oswald', sans-serif;
+                    transition: 700ms;
+                  }
     p{ font-family: "Oswald", sans-serif;}
 
