@@ -46,7 +46,7 @@
         --subcor: #38214d;
      }
    
-      #sla a{
+      .links a{
          text-decoration: none;
          color: white;
          font-size: 28px;
@@ -62,4 +62,5 @@
                     transition: 700ms;
                   }
     p{ font-family: "Oswald", sans-serif;}
+
 
